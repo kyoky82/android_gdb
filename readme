@@ -3,8 +3,8 @@
 3. 建立软连接到arm/bin/指向Android的gdb工具库，比如：android/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.3.1/bin/
 	-->有些路径可能稍微有出入，可搜索下面工具位置：aarch64-linux-gnu-gdb
 4. 打开~/.bashrc文件，并在末尾添加下面内容：
-	export PARK_ARM64=/home/xxj/bin/arm64
-	export PARK_ARM=/home/xxj/bin/arm/bin
+	export PARK_ARM64=/home/user_name/bin/arm64
+	export PARK_ARM=/home/user_name/bin/arm/bin
 	export PATH=${PARK_ARM64}/bin:$PATH
 	export PATH=${PARK_ARM}:$PATH
 5. 执行source ~/.bashrc 将上述工具添加到环境变量
